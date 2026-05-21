@@ -10,39 +10,25 @@ Y88b 888 d88P 888  888 Y88b. Y88b.    888  888 888 888 888  888  888
  "Y8888888P"  "Y888888  "Y888 "Y8888P 888  888 888 888 888  888  888
 ```
 
-# watchllm/docs
+# WatchLLM Documentation
 
-Central documentation for WatchLLM infrastructure.
-
-**Status:** Scaffold â€” content repopulation in progress.
+Official documentation for the WatchLLM infrastructure stack: architecture, specifications, RFCs, and roadmap.
 
 ## About WatchLLM
 
-WatchLLM is **runtime governance and reliability infrastructure** for autonomous software systems.
+WatchLLM is runtime governance and reliability infrastructure for autonomous software systems. The platform provides deterministic enforcement, architectural memory, replay, and reliability tooling â€” designed for engineering teams running agents in production.
 
 > Agents are probabilistic. Infrastructure cannot be.
 
-## Ecosystem
+## Status
 
-| Repository | Role |
-|------------|------|
-| [watchllm/kernel](https://github.com/watchllm/kernel) | Deterministic local enforcement engine |
-| [watchllm/klyd](https://github.com/watchllm/klyd) | Architectural memory |
-| [watchllm/replay](https://github.com/watchllm/replay) | Execution replay and forensics |
-| [watchllm/runtime](https://github.com/watchllm/runtime) | Governance-aware orchestration |
-| [watchllm/reliability](https://github.com/watchllm/reliability) | Adversarial evaluation and stress testing |
-| [watchllm/schemas](https://github.com/watchllm/schemas) | Shared event, rule, and policy contracts |
-| **[watchllm/docs](https://github.com/watchllm/docs)** | **RFCs, architecture, specifications, roadmap** |
-| [watchllm/examples](https://github.com/watchllm/examples) | Curated demonstrations |
-| [watchllm/benchmarks](https://github.com/watchllm/benchmarks) | Performance and regression suite |
-| [watchllm/vscode](https://github.com/watchllm/vscode) | Editor integration (save interception, diagnostics) |
+Documentation is being rebuilt. Check back for architecture guides, specs, and contribution docs.
 
 ## Links
 
-- Documentation: [watchllm/docs](https://github.com/watchllm/docs)
-- Organization: [github.com/watchllm](https://github.com/watchllm)
 - Website: [watchllm.dev](https://watchllm.dev)
+- Organization: [github.com/watchllm](https://github.com/watchllm)
 
----
+## Contributing
 
-> Legacy repositories (`WATCHLLM-*`, SDKs, cloud experiments) are **archived** and out of current scope.
+Contribution guidelines will be published here as the documentation set matures.
