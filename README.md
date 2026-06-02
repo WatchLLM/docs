@@ -1,36 +1,37 @@
-<p align="center">
-<pre>
-
-                              888            888      888 888
-                              888            888      888 888
-                              888            888      888 888
-888  888  888  8888b.  888888 .d8888b 88888b.  888 888 88888b.d88b.
-888  888  888     "88b 888   d88P"    888 "88b 888 888 888 "888 "88b
-888  888  888 .d888888 888   888      888  888 888 888 888  888  888
-Y88b 888 d88P 888  888 Y88b. Y88b.    888  888 888 888 888  888  888
- "Y8888888P"  "Y888888  "Y888 "Y8888P 888  888 888 888 888  888  888
-</pre>
-</p>
-
 # WatchLLM Documentation
 
-Official documentation for the WatchLLM infrastructure stack: architecture, specifications, RFCs, and roadmap.
+*Central architectural specifications, RFCs, design docs, and master roadmap for the WatchLLM ecosystem.*
 
-## About WatchLLM
+## Current status
 
-WatchLLM is runtime governance and reliability infrastructure for autonomous software systems. The platform provides deterministic enforcement, architectural memory, replay, and reliability tooling â€” designed for engineering teams running agents in production.
+Active documentation phase. Core documentation indexes and layout structured.
 
+## Overview
+
+The `docs` repository is the central point of truth for WatchLLM's system design and specification. It preserves the core philosophy:
 > Agents are probabilistic. Infrastructure cannot be.
 
-## Status
+It defines interfaces and guidelines to prevent architectural entropy, uncontrolled abstraction, and agent-induced system incoherence.
 
-Documentation is being rebuilt. Check back for architecture guides, specs, and contribution docs.
+## Directory Structure
+
+This repository is structured into distinct documentation namespaces:
+
+- **[architecture/](architecture/README.md):** High-level system design diagrams, runtime boundaries, and ecosystem data flows.
+- **[specs/](specs/README.md):** Machine-level interface contracts (CLI arguments, reporting JSON structures, telemetry formats).
+- **[RFCs/](RFCs/README.md):** Durable written reasoning for major design decisions (e.g. storage models, Wasm integration, event structures).
+- **[roadmap/](roadmap/README.md):** The sequential product phases, timelines, and deliverables checklist.
+
+## Relationship to Kernel
+
+- **WatchLLM Documentation (Guidelines):** Explains how components must behave, providing the rules and conventions.
+- **WatchLLM Kernel (Implementation):** Follows the boundaries and CLI schemas specified in these documents.
+
+## Non-goals
+
+- **Executable Code:** Contains only design documentation and specification markdown files. No executable runtime packages are stored here.
 
 ## Links
 
-- Website: [watchllm.dev](https://watchllm.dev)
-- Organization: [github.com/watchllm](https://github.com/watchllm)
-
-## Contributing
-
-Contribution guidelines will be published here as the documentation set matures.
+- [WatchLLM Organization](https://github.com/WatchLLM)
+- [watchllm.dev](https://watchllm.dev)
