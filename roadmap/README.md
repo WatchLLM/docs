@@ -9,3 +9,14 @@ Master roadmap and product milestones for the WatchLLM ecosystem.
 3. **Phase 3 — Editor Integration:** VS Code save hook extension (Scaffolded).
 4. **Phase 4 — klyd Integration:** Architectural memory sync.
 5. **Phase 5 — Replay Engine:** Observability trace timeline.
+
+## Context Prerequisites
+
+Roadmap decisions should remain grounded in canonical context docs in
+[`../context/`](../context/README.md):
+
+- [Mission](../context/mission.md)
+- [Threat Model](../context/threat-model.md)
+- [Glossary](../context/glossary.md)
+- [Language Support](../context/language-support.md)
+- [Execution Model](../context/execution-model.md)

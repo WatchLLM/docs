@@ -4,7 +4,7 @@
 
 ## Current status
 
-Active documentation phase. Core documentation indexes and layout structured.
+Active documentation phase. Core documentation indexes are structured and baseline context docs are seeded.
 
 ## Overview
 
@@ -21,6 +21,7 @@ This repository is structured into distinct documentation namespaces:
 - **[specs/](specs/README.md):** Machine-level interface contracts (CLI arguments, reporting JSON structures, telemetry formats).
 - **[RFCs/](RFCs/README.md):** Durable written reasoning for major design decisions (e.g. storage models, Wasm integration, event structures).
 - **[roadmap/](roadmap/README.md):** The sequential product phases, timelines, and deliverables checklist.
+- **[context/](context/README.md):** Canonical mission, threat model, glossary, language support, and execution model.
 
 ## Relationship to Kernel
 
